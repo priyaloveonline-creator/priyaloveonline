@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/chat.js": { "maxDuration": 30 },
+    "api/webhook.js": { "maxDuration": 10 }
+  },
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/priyalove.html" }
+  ]
+}
